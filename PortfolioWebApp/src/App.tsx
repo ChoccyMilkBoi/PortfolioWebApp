@@ -1,9 +1,12 @@
 import { useState } from "react";
+import HeroSection from "./Components/HeroSection";
+import "./index.css";
 
 function App() {
   return (
     <>
-      <h1 className="text-5xl font-bold underline">Hello world!</h1>
+      <HeroSection></HeroSection>
+      <h1 className="beans">Hello world!</h1>
     </>
   );
 }
