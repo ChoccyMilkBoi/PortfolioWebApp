@@ -1,11 +1,15 @@
 import { useState } from "react";
+import "./index.css";
+import HeroSection from "./Components/HeroSection";
+import BodySection from "./Components/BodySection";
 
 function App() {
-  return (
-    <>
-      <h1 className="text-5xl font-bold underline">Hello world!</h1>
-    </>
-  );
+	return (
+		<>
+			<HeroSection />
+			<BodySection />
+		</>
+	);
 }
 
 export default App;
