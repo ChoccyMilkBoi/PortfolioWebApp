@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 * assign yap to the parent element, it saves time, TRUST me 
 * -Emilio, 4/29/2024
@@ -86,3 +87,19 @@
 	--bs-form-invalid-color: #ea868f;
 	--bs-form-invalid-border-color: #ea868f;
 }
+=======
+.hero-image {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image.png");
+
+    height: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.beans {
+    font-size: 100px;
+}
+>>>>>>> 47627d7b8398e5f0d59133c4ea4d1ecea6ab96b3
